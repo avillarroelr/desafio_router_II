@@ -1,0 +1,94 @@
+body, html {
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  display: flex;
+  flex-direction: column; 
+}
+/* CSS Para Navbar */
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: gray;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+}
+.menu img {
+  height: 50px;
+  filter: invert(100%);
+}
+.itemsMenus {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* CSS Para Form de seleccion de pokemon */
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.containerForm select {
+  width: 300px;
+  height: 40px;
+  align-items: center;
+}
+
+.containerForm button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
+/* CSS Para Tarjeta con Info de Pokemon  */
+.containerPokemon {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+}
+.card-body img {
+  width: 55%;
+  margin-right: 20px;
+}
+.card-body h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card-body li {
+  text-align: start;
+}
+
+/* CSS Para Navlink */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.active {
+  color: red;
+}
